@@ -1,0 +1,22 @@
+{
+    "liveSassCompile.settings.excludeList": [
+
+
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "debug.javascript.terminalOptions": {
+    
+    },
+    "liveSassCompile.settings.autoprefix": [],
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css"
+        }
+    ]
+}

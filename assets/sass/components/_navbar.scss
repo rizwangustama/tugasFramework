@@ -1,0 +1,177 @@
+@import '../base/mixin';
+@import '../base/variables';
+
+.satuNav {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 5;
+    transition:ease all 1s;
+    
+    .container {
+        @include container();
+        header {
+            height: 114px;
+            display: flex;
+            justify-content: space-between;
+            transition:ease all 1s;
+            .img img {
+                width: 200px;
+                transition:ease all 1s
+            }
+            menu {
+                nav {
+                    height: 100%;
+                    ul {
+                        display: inline-flex;
+                        padding: 0;
+                        margin: 0;
+                        height: 100%;
+                        li {
+                            display: flex;
+                            list-style-type: none;
+                            
+                            text-align: center;
+                            justify-content: center;
+                            align-items: center;
+                            border-top: 2px solid transparent;
+                            border-right: 1px solid $border-color ;
+                            a {
+                                margin: 0 12px;
+                                color: $colortext;
+                                font-size: 10px;
+                                font-weight: bold;
+                                text-decoration: none;
+                                font-family: gotham;
+                                letter-spacing: 2px;
+ 
+                            }
+                        }
+                        li:nth-last-child(6) {
+                            border-left: 1px solid $border-color ;
+                            border-top: 2px solid $colorprimary
+
+                        }
+                        li:hover {
+                            border-top: 2px solid $colorprimary;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        .bahasa {
+            background: #fff;
+            position: absolute;
+            top: 134px;
+            right: 20px;
+            width: 130px;
+            height: 47px;
+            padding: 5px 10px;
+            p {
+                font-family: gotham;
+                font-size: 12px;
+                margin-bottom: 0px;
+                text-align: center;
+            }
+            .row {
+                justify-content: center;
+                .col{
+                    display: flex;
+                    align-items: center;
+                    img {
+                        width: 12px;
+                        height: 12px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.satu {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.664);
+    width: 100%;
+    z-index: 5;
+    
+    .container {
+        @include container();
+        header {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            .img img {
+                width: 180px;
+            }
+            menu {
+                nav {
+                    height: 100%;
+                    ul {
+                        display: inline-flex;
+                        padding: 0;
+                        margin: 0;
+                        height: 100%;
+                        li {
+                            display: flex;
+                            list-style-type: none;
+                            
+                            text-align: center;
+                            justify-content: center;
+                            align-items: center;
+                            border-top: 2px solid transparent;
+                            border-right: 1px solid $border-color ;
+                            a {
+                                margin: 0 12px;
+                                color: $colortext;
+                                font-size: 10px;
+                                font-weight: bold;
+                                text-decoration: none;
+                                font-family: gotham;
+                                letter-spacing: 2px;
+ 
+                            }
+                        }
+                        li:nth-last-child(6) {
+                            border-left: 1px solid $border-color ;
+                            border-top: 2px solid $colorprimary
+
+                        }
+                        li:hover {
+                            border-top: 2px solid $colorprimary;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        .bahasa {
+            background: #fff;
+            position: absolute;
+            top: 134px;
+            right: 20px;
+            width: 130px;
+            height: 47px;
+            padding: 5px 10px;
+            p {
+                font-family: gotham;
+                font-size: 12px;
+                margin-bottom: 0px;
+                text-align: center;
+            }
+            .row {
+                justify-content: center;
+                .col{
+                    display: flex;
+                    align-items: center;
+                    img {
+                        width: 12px;
+                        height: 12px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

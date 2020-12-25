@@ -1,0 +1,25 @@
+@font-face {
+    font-family: din-bold;
+    src: url(/assets/font/din-bold.ttf);
+}
+@font-face {
+    font-family: din-light;
+    src: url(/assets/font/din-light.ttf);
+}
+@font-face {
+    font-family: din-normal;
+    src: url(/assets/font/din-normal.ttf);
+}
+@font-face {
+    font-family: gothamLight;
+    src: url(/assets/font/Gotham-Light.woff2);
+}
+@font-face {
+    font-family: gothamBold;
+    src: url(/assets/font/GothamBold.woff2);
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap");
+
+* {
+    font-family: gotham-normal;
+}

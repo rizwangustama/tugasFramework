@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap");
+@font-face {
+  font-family: din-bold;
+  src: url(/assets/font/din-bold.ttf);
+}
+
+@font-face {
+  font-family: din-light;
+  src: url(/assets/font/din-light.ttf);
+}
+
+@font-face {
+  font-family: din-normal;
+  src: url(/assets/font/din-normal.ttf);
+}
+
+@font-face {
+  font-family: gothamLight;
+  src: url(/assets/font/Gotham-Light.woff2);
+}
+
+@font-face {
+  font-family: gothamBold;
+  src: url(/assets/font/GothamBold.woff2);
+}
+
+* {
+  font-family: gotham-normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.satuNav {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 5;
+  transition: ease all 1s;
+}
+
+.satuNav .container {
+  margin: auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.satuNav .container header {
+  height: 114px;
+  display: flex;
+  justify-content: space-between;
+  transition: ease all 1s;
+}
+
+.satuNav .container header .img img {
+  width: 200px;
+  transition: ease all 1s;
+}
+
+.satuNav .container header menu nav {
+  height: 100%;
+}
+
+.satuNav .container header menu nav ul {
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.satuNav .container header menu nav ul li {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid transparent;
+  border-right: 1px solid rgba(88, 88, 88, 0.158);
+}
+
+.satuNav .container header menu nav ul li a {
+  margin: 0 12px;
+  color: #000;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: gotham;
+  letter-spacing: 2px;
+}
+
+.satuNav .container header menu nav ul li:nth-last-child(6) {
+  border-left: 1px solid rgba(88, 88, 88, 0.158);
+  border-top: 2px solid #e27026;
+}
+
+.satuNav .container header menu nav ul li:hover {
+  border-top: 2px solid #e27026;
+}
+
+.satuNav .container .bahasa {
+  background: #fff;
+  position: absolute;
+  top: 134px;
+  right: 20px;
+  width: 130px;
+  height: 47px;
+  padding: 5px 10px;
+}
+
+.satuNav .container .bahasa p {
+  font-family: gotham;
+  font-size: 12px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.satuNav .container .bahasa .row {
+  justify-content: center;
+}
+
+.satuNav .container .bahasa .row .col {
+  display: flex;
+  align-items: center;
+}
+
+.satuNav .container .bahasa .row .col img {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+.satu {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.664);
+  width: 100%;
+  z-index: 5;
+}
+
+.satu .container {
+  margin: auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.satu .container header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.satu .container header .img img {
+  width: 180px;
+}
+
+.satu .container header menu nav {
+  height: 100%;
+}
+
+.satu .container header menu nav ul {
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.satu .container header menu nav ul li {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid transparent;
+  border-right: 1px solid rgba(88, 88, 88, 0.158);
+}
+
+.satu .container header menu nav ul li a {
+  margin: 0 12px;
+  color: #000;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: gotham;
+  letter-spacing: 2px;
+}
+
+.satu .container header menu nav ul li:nth-last-child(6) {
+  border-left: 1px solid rgba(88, 88, 88, 0.158);
+  border-top: 2px solid #e27026;
+}
+
+.satu .container header menu nav ul li:hover {
+  border-top: 2px solid #e27026;
+}
+
+.satu .container .bahasa {
+  background: #fff;
+  position: absolute;
+  top: 134px;
+  right: 20px;
+  width: 130px;
+  height: 47px;
+  padding: 5px 10px;
+}
+
+.satu .container .bahasa p {
+  font-family: gotham;
+  font-size: 12px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.satu .container .bahasa .row {
+  justify-content: center;
+}
+
+.satu .container .bahasa .row .col {
+  display: flex;
+  align-items: center;
+}
+
+.satu .container .bahasa .row .col img {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+@font-face {
+  font-family: din-bold;
+  src: url(/assets/font/din-bold.ttf);
+}
+
+@font-face {
+  font-family: din-light;
+  src: url(/assets/font/din-light.ttf);
+}
+
+@font-face {
+  font-family: din-normal;
+  src: url(/assets/font/din-normal.ttf);
+}
+
+@font-face {
+  font-family: gothamLight;
+  src: url(/assets/font/Gotham-Light.woff2);
+}
+
+@font-face {
+  font-family: gothamBold;
+  src: url(/assets/font/GothamBold.woff2);
+}
+
+* {
+  font-family: gotham-normal;
+}
+
+#kedua .container1 {
+  margin: 10px;
+  height: 361.81px;
+  overflow: hidden;
+}
+
+#kedua .container1 .grid {
+  display: grid;
+  grid-template-columns: 66.6% 33.4%;
+  grid-template-rows: 361.81px 361.81px;
+  column-gap: 10px;
+}
+
+#kedua .container1 .grid .itemku {
+  transition: all 1s ease;
+}
+
+#kedua .container1 .grid .item .konten {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: auto auto;
+  width: 65%;
+}
+
+#kedua .container1 .grid .item .konten .isi {
+  justify-content: center;
+  align-items: center;
+}
+
+#kedua .container1 .grid .item .konten .isi h2 {
+  font-family: gothamBold;
+  font-size: 20px;
+  color: #ffff;
+  text-align: center;
+  transition: all 0.9s ease;
+}
+
+#kedua .container1 .grid .item .konten .isi h4 {
+  margin-top: 18px;
+  text-align: center;
+  line-height: 24px;
+  font-family: din-normal;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #ffff;
+}
+
+#kedua .container1 .grid .item .konten .isi div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#kedua .container1 .grid .item .konten .isi div button {
+  margin: 0 auto;
+  font-size: 13px;
+  width: 123px;
+  height: 38px;
+  border: 1px solid #ffff;
+  background: transparent;
+  font-family: din-bold;
+  color: #ffff;
+  transition: all 0.9s ease;
+  border-radius: 5px;
+}
+
+#kedua .container1 .grid .item .konten .isi div button:hover {
+  color: #e27026;
+}
+
+#kedua .container1 .grid .item .i-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 40px 50px;
+}
+
+#kedua .container1 .grid .item .i-container .i-konten {
+  display: flex;
+  align-items: center;
+}
+
+#kedua .container1 .grid .item .i-container .i-konten .isi-konten h3 {
+  font-family: gotham-bold;
+  text-align: center;
+  color: white;
+}
+
+#kedua .container1 .grid .item .i-container .i-konten .isi-konten .i-isi {
+  display: flex;
+}
+
+#kedua .container1 .grid .item .i-container .i-konten .isi-konten .i-isi .kiri {
+  margin-right: 20px;
+}
+
+#kedua .container1 .grid .item .i-container .i-konten .isi-konten .i-isi .kanan p {
+  font-family: din-normal;
+  color: white;
+  font-size: 13px;
+}
+
+#kedua .container1 .grid .item .i-container .i-konten .isi-konten .i-isi .kanan button {
+  font-family: din-bold;
+  font-size: 14px;
+  background: #e27026;
+  border: 2px solid transparent;
+  color: white;
+  width: 115px;
+  height: 39px;
+  border-radius: 5px;
+  transition: all 0.9s ease;
+}
+
+#kedua .container1 .grid .item .i-container .i-konten .isi-konten .i-isi .kanan button:hover {
+  background: transparent;
+  border: 2px solid #e27026;
+  color: #e27026;
+}
+
+#kedua .container1 .grid .itemku:hover {
+  filter: brightness(70%);
+  transition: all 1s ease;
+}
+
+#kedua .container1 .grid .itemku:hover .konten .isi h2 {
+  color: #e27026;
+  transition: all 0.9s ease;
+}

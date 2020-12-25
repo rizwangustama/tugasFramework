@@ -1,0 +1,139 @@
+@import '../base/mixin';
+@import '../base/variables';
+@import '../base/font';
+
+#kedua {
+    .container1{
+        @include container1();
+        height: 361.81px;
+        overflow: hidden;
+        .grid {
+            display: grid;
+            grid-template-columns: 66.6% 33.4%;
+            grid-template-rows: 361.81px 361.81px;
+            column-gap: 10px;
+            .itemku{
+                transition: all 1s ease;
+            }
+            .item{
+                
+                .konten {
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    margin: auto auto;
+                    width: 65%;
+                    .isi{
+                        justify-content: center;
+                        align-items: center;
+                        h2 {
+                            font-family: gothamBold;
+                            font-size: 20px;
+                            color: $colorsecond;
+                            text-align: center;
+                            transition: all 0.9s ease;
+                        }
+                        h4 {
+                            margin-top: 18px;
+                            text-align: center;
+                            line-height: 24px;
+                            font-family: din-normal;
+                            font-size: 15px;
+                            letter-spacing: 1px;
+                            color: $colorsecond;
+
+                        }
+                        div {
+                            margin-top: 20px;
+                            display: flex;
+                            justify-content: center;
+                            button{
+                                margin: 0 auto;
+                                font-size: 13px;
+                                width: 123px;
+                                height: 38px;
+                                border: 1px solid $colorsecond;
+                                background:transparent;
+                                font-family: din-bold;
+                                color: $colorsecond;
+                                transition: all 0.9s ease;
+                                border-radius: 5px;
+                            }
+                            button:hover{
+                                // border: 1.5px solid $colorprimary;
+                                color: $colorprimary;
+                            }
+                        }
+                    }
+                }
+                .i-container{
+                    display: flex;
+                    height: 100%;
+                    align-items: center;
+                    padding: 40px 50px;
+                    .i-konten{
+                        display: flex;
+                        align-items: center;
+                        .isi-konten{
+                            h3{
+                                font-family: gotham-bold;
+                                text-align: center;
+                                color: white;
+                            }
+                            .i-isi {
+                                display: flex;
+                                .kiri{
+                                    margin-right: 20px;
+                                }
+                                .kanan{
+                                    p {
+                                        font-family: din-normal;
+                                        color: white;
+                                        font-size: 13px;
+                                    }
+                                    button {
+                                        font-family: din-bold;
+                                        font-size: 14px;
+                                        background: $colorprimary;
+                                        border: 2px solid transparent;
+                                        color: white;
+                                        width: 115px;
+                                        height: 39px;
+                                        border-radius: 5px;
+                                        transition: all 0.9s ease;
+                                    }
+                                    button:hover {
+                                        background: transparent;
+                                        border: 2px solid $colorprimary;
+                                        color: $colorprimary;
+                                    }
+    
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+#kedua {
+    .container1 {
+        .grid{
+            .itemku:hover{
+                filter: brightness(70%);
+                transition: all 1s ease;
+                .konten{
+                    .isi {
+                        h2{
+                            color: $colorprimary;
+                            transition: all 0.9s ease;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

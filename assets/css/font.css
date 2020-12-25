@@ -1,0 +1,23 @@
+@font-face {
+    font-family: din-bold;
+    src: url(/assets/font/din-bold.ttf);
+}
+@font-face {
+    font-family: din-light;
+    src: url(/assets/font/din-light.ttf);
+}
+@font-face {
+    font-family: din-normal;
+    src: url(/assets/font/din-normal.ttf);
+}
+@font-face {
+    font-family: gotham-bold;
+    src: url(/assets/font/gotham-bold.ttf);
+}
+@font-face {
+    font-family: gotham-normal;
+    src: url(/assets/font/gotham-normal.otf);
+}
+* {
+    font-family: gotham-normal;
+}
