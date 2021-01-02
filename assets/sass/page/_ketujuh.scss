@@ -1,0 +1,39 @@
+@import '../base/mixin';
+@import '../base/variables';
+
+#ketujuh{
+    margin-top: 70px;
+    .container1{
+        @include container1();
+        display: grid;
+        grid-template-columns: 66.6% 33.4%;
+        column-gap: 10px;
+        overflow: hidden;
+        .colom{
+            height: 361.88px;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            .wrap, .wrap-satu{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                .konten{
+                    h1{
+                        text-align: center;
+                        color: white;
+                        font-family: gotham;
+                        font-weight: bold;
+                        font-size: 20px;
+                        letter-spacing: 2px;
+                        text-shadow: 2px 2px 5px #535353;
+                    }
+                    h1:nth-last-child(1){
+                        border-bottom: 2px solid white;
+                        padding-bottom: 10px;
+                    }
+                } 
+            }
+        }
+    }
+}

@@ -52,18 +52,25 @@
 /* mod boostrstap */
 .carousel-caption .text1, .carousel-caption .text2{
     text-align: center;
+    line-height: 30px;
 }
 .carousel-caption .text1 {
-    font-size: 18px;
+    font-family: DINPro;
+    font-size: 20px;
     color: #e27026;
 }
 
 .carousel-caption .text2 {
-    font-size: 20px;
+    font-family: DINPro;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
 }
 
 .carousel-caption button {
-    font-family: gothamBold;
+    font-family: DINPro;
+    font-weight: bold;
+    margin-top: 15px;
     color: white;
     font-size: 12px;
     border-radius: 5px;

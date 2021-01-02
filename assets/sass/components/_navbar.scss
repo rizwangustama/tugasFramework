@@ -63,6 +63,7 @@
         .bahasa {
             background: #fff;
             position: absolute;
+            transition:ease all 1s;
             top: 134px;
             right: 20px;
             width: 130px;
@@ -92,7 +93,7 @@
 
 .satu {
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.664);
+    background-color: rgba(255, 255, 255, 0.9);
     width: 100%;
     z-index: 5;
     
@@ -147,9 +148,9 @@
             }
         }
         .bahasa {
-            background: #fff;
+            background: rgba(255, 255, 255, 0.9);
             position: absolute;
-            top: 134px;
+            top: 120px;
             right: 20px;
             width: 130px;
             height: 47px;

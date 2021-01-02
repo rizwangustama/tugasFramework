@@ -1,0 +1,74 @@
+@import '../base/mixin';
+@import '../base/variables';
+@import '../base/font';
+
+#keempat {
+    .container1{
+        @include container1();
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 380.7px;
+            column-gap: 10px;
+            .item:hover{
+                filter:brightness(70%);
+            }
+            .item{
+                transition:ease all 1s;
+                .container{
+                    padding: 30px 30px;
+                    .wrap{
+                        display: flex;
+                        justify-content: space-between;
+                        .kiri{
+                            .konten{
+                                display: flex;
+                                img {
+                                    width: 25px;
+                                    height: 25px;
+                                    margin-right: 20px;
+                                }
+                                p {
+                                    font-size: 17px;
+                                    font-family: $fontdin;
+                                    color: $colorsecond;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+                        .kanan{
+                            .border1 {
+                                padding: 10px;
+                                border-radius: 5px;
+                                border: 1px solid white;
+                                img {}
+                                p{
+                                    margin-bottom: 0px;
+                                    font-family: $fontdin;
+                                    font-weight: bold;
+                                    font-size: 13px;
+                                    text-align: center;
+                                    color: white;
+                                    transition:ease all 1s;
+                                }
+                                p:hover {
+                                    color: $colorprimary;
+                                }
+                            }
+                        }
+                    }
+                    .bawah{
+                        p{
+                            margin-top: 200px;
+                            text-align: center;
+                            color: white;
+                            font-family: gotham;
+                            font-weight: bold;
+                            letter-spacing: 1.9px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap");
 @font-face {
   font-family: din-bold;
   src: url(/assets/font/din-bold.ttf);
@@ -22,7 +24,7 @@
 
 @font-face {
   font-family: gothamBold;
-  src: url(/assets/font/GothamBold.woff2);
+  src: url(/assets/font/GothamBold.woff2) format("woff2");
 }
 
 * {
@@ -108,6 +110,7 @@ body {
 .satuNav .container .bahasa {
   background: #fff;
   position: absolute;
+  transition: ease all 1s;
   top: 134px;
   right: 20px;
   width: 130px;
@@ -139,7 +142,7 @@ body {
 
 .satu {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.664);
+  background-color: rgba(255, 255, 255, 0.9);
   width: 100%;
   z-index: 5;
 }
@@ -201,9 +204,9 @@ body {
 }
 
 .satu .container .bahasa {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
   position: absolute;
-  top: 134px;
+  top: 120px;
   right: 20px;
   width: 130px;
   height: 47px;
@@ -254,7 +257,7 @@ body {
 
 @font-face {
   font-family: gothamBold;
-  src: url(/assets/font/GothamBold.woff2);
+  src: url(/assets/font/GothamBold.woff2) format("woff2");
 }
 
 * {
@@ -292,7 +295,8 @@ body {
 }
 
 #kedua .container1 .grid .item .konten .isi h2 {
-  font-family: gothamBold;
+  font-family: gotham;
+  font-weight: bold;
   font-size: 20px;
   color: #ffff;
   text-align: center;
@@ -303,7 +307,7 @@ body {
   margin-top: 18px;
   text-align: center;
   line-height: 24px;
-  font-family: din-normal;
+  font-family: DINPro;
   font-size: 15px;
   letter-spacing: 1px;
   color: #ffff;
@@ -322,7 +326,8 @@ body {
   height: 38px;
   border: 1px solid #ffff;
   background: transparent;
-  font-family: din-bold;
+  font-family: DINPro;
+  font-weight: bold;
   color: #ffff;
   transition: all 0.9s ease;
   border-radius: 5px;
@@ -345,7 +350,8 @@ body {
 }
 
 #kedua .container1 .grid .item .i-container .i-konten .isi-konten h3 {
-  font-family: gotham-bold;
+  font-family: gotham;
+  font-weight: bold;
   text-align: center;
   color: white;
 }
@@ -359,13 +365,14 @@ body {
 }
 
 #kedua .container1 .grid .item .i-container .i-konten .isi-konten .i-isi .kanan p {
-  font-family: din-normal;
+  font-family: DINPro;
   color: white;
   font-size: 13px;
 }
 
 #kedua .container1 .grid .item .i-container .i-konten .isi-konten .i-isi .kanan button {
-  font-family: din-bold;
+  font-family: DINPro;
+  font-weight: bold;
   font-size: 14px;
   background: #e27026;
   border: 2px solid transparent;
@@ -390,4 +397,300 @@ body {
 #kedua .container1 .grid .itemku:hover .konten .isi h2 {
   color: #e27026;
   transition: all 0.9s ease;
+}
+
+@font-face {
+  font-family: din-bold;
+  src: url(/assets/font/din-bold.ttf);
+}
+
+@font-face {
+  font-family: din-light;
+  src: url(/assets/font/din-light.ttf);
+}
+
+@font-face {
+  font-family: din-normal;
+  src: url(/assets/font/din-normal.ttf);
+}
+
+@font-face {
+  font-family: gothamLight;
+  src: url(/assets/font/Gotham-Light.woff2);
+}
+
+@font-face {
+  font-family: gothamBold;
+  src: url(/assets/font/GothamBold.woff2) format("woff2");
+}
+
+* {
+  font-family: gotham-normal;
+}
+
+#keempat .container1 {
+  margin: 10px;
+}
+
+#keempat .container1 .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 380.7px;
+  column-gap: 10px;
+}
+
+#keempat .container1 .grid .item:hover {
+  filter: brightness(70%);
+}
+
+#keempat .container1 .grid .item {
+  transition: ease all 1s;
+}
+
+#keempat .container1 .grid .item .container {
+  padding: 30px 30px;
+}
+
+#keempat .container1 .grid .item .container .wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+#keempat .container1 .grid .item .container .wrap .kiri .konten {
+  display: flex;
+}
+
+#keempat .container1 .grid .item .container .wrap .kiri .konten img {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+#keempat .container1 .grid .item .container .wrap .kiri .konten p {
+  font-size: 17px;
+  font-family: DINPro;
+  color: #ffff;
+  line-height: 20px;
+}
+
+#keempat .container1 .grid .item .container .wrap .kanan .border1 {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+#keempat .container1 .grid .item .container .wrap .kanan .border1 p {
+  margin-bottom: 0px;
+  font-family: DINPro;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  transition: ease all 1s;
+}
+
+#keempat .container1 .grid .item .container .wrap .kanan .border1 p:hover {
+  color: #e27026;
+}
+
+#keempat .container1 .grid .item .container .bawah p {
+  margin-top: 200px;
+  text-align: center;
+  color: white;
+  font-family: gotham;
+  font-weight: bold;
+  letter-spacing: 1.9px;
+}
+
+@font-face {
+  font-family: din-bold;
+  src: url(/assets/font/din-bold.ttf);
+}
+
+@font-face {
+  font-family: din-light;
+  src: url(/assets/font/din-light.ttf);
+}
+
+@font-face {
+  font-family: din-normal;
+  src: url(/assets/font/din-normal.ttf);
+}
+
+@font-face {
+  font-family: gothamLight;
+  src: url(/assets/font/Gotham-Light.woff2);
+}
+
+@font-face {
+  font-family: gothamBold;
+  src: url(/assets/font/GothamBold.woff2) format("woff2");
+}
+
+* {
+  font-family: gotham-normal;
+}
+
+#kelima .container1 {
+  margin: 10px;
+}
+
+#kelima .container1 .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 380.52px;
+  column-gap: 10px;
+}
+
+#kelima .container1 .grid .colom:hover {
+  filter: brightness(80%);
+}
+
+#kelima .container1 .grid .colom {
+  color: #ffffff;
+  transition: ease all 1s;
+}
+
+#kelima .container1 .grid .colom .container {
+  padding: 30px 30px;
+}
+
+#kelima .container1 .grid .colom .container .wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+#kelima .container1 .grid .colom .container .wrap .kiri .konten {
+  display: flex;
+}
+
+#kelima .container1 .grid .colom .container .wrap .kiri .konten img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+#kelima .container1 .grid .colom .container .wrap .kiri .konten p {
+  font-size: 17px;
+  font-family: DINPro;
+  color: #ffff;
+  line-height: 20px;
+}
+
+#kelima .container1 .grid .colom .container .wrap .kanan .border1 {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+#kelima .container1 .grid .colom .container .wrap .kanan .border1 p {
+  margin-bottom: 0px;
+  font-family: DINPro;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  transition: ease all 1s;
+}
+
+#kelima .container1 .grid .colom .container .wrap .kanan .border1 p:hover {
+  color: #e27026;
+}
+
+#kelima .container1 .grid .colom .container .bawah p {
+  margin-top: 250px;
+  text-align: center;
+  font-family: gotham;
+  font-weight: bold;
+  color: white;
+}
+
+#ketujuh {
+  margin-top: 70px;
+}
+
+#ketujuh .container1 {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 66.6% 33.4%;
+  column-gap: 10px;
+  overflow: hidden;
+}
+
+#ketujuh .container1 .colom {
+  height: 361.88px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#ketujuh .container1 .colom .wrap, #ketujuh .container1 .colom .wrap-satu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#ketujuh .container1 .colom .wrap .konten h1, #ketujuh .container1 .colom .wrap-satu .konten h1 {
+  text-align: center;
+  color: white;
+  font-family: gotham;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px #535353;
+}
+
+#ketujuh .container1 .colom .wrap .konten h1:nth-last-child(1), #ketujuh .container1 .colom .wrap-satu .konten h1:nth-last-child(1) {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 100px;
+  background: #222222;
+  overflow: hidden;
+}
+
+footer .img {
+  height: 90px;
+  width: 100%;
+  background-size: unset;
+  margin-top: -50px;
+  position: absolute;
+  z-index: 2;
+}
+
+footer .container {
+  margin: auto;
+  width: 93%;
+}
+
+footer .container .grid {
+  display: grid;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  grid-template-columns: 1.5fr 1fr 1fr;
+}
+
+footer .container .grid .colom {
+  color: #888787;
+}
+
+footer .container .grid .colom p {
+  font-family: DINPro;
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+footer .container .grid .colom p span {
+  font-family: DINPro;
+  font-weight: bold;
+}
+
+footer .container .grid .colom img {
+  width: 400px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
 }

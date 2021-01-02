@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
   <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./assets/js/swiper-bundle.css">
 
   <!-- Demo styles -->
   <style>
@@ -18,31 +18,26 @@
     }
 
     body {
-      
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
       margin: 0;
       padding: 0;
     }
 
-    .swiper-pagination-bullet {
-      width: 30px;
-    }
-
-    .swiper-slide h1 {
-      font-size: 100px;
-      display: block;
-      color: aqua;
-    }
- 
     .swiper-container {
-      width: 100%;
+      width: 80%;
       height: 100%;
     }
 
     .swiper-slide {
+      height: 461.6px;
       text-align: center;
       font-size: 18px;
       background: #fff;
-      display: block;
+      box-shadow: 10px 5px 10px grey;
+      overflow: hidden;
 
       /* Center slide text vertically */
       display: -webkit-box;
@@ -58,6 +53,25 @@
       -webkit-align-items: center;
       align-items: center;
     }
+    img{
+      width: 100%;
+      height: 300px;
+    }
+    .pembungkus {
+      height: 461.6px;
+      width: 100%;
+      background-color: indianred;
+    }
+    .title {
+      padding: 30px;
+      text-align: left;
+    }
+    p {
+      margin: 0;
+    }
+    h1 {
+      margin: 0;
+    }
   </style>
 </head>
 
@@ -65,9 +79,16 @@
   <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" style="background: url(./assets/image/img/jumbotron.webp);">
-        <h1>WELCOME</h1> <br>
-        <h2>RIZWAN GUSTAMA</h2>
+      <div class="swiper-slide">
+        <div class="pembungkus">
+          <div class="konten">
+            <img src="./assets/image/img/even1.webp" alt="">
+          </div>
+          <div class="title">
+            <p>23 Desember 2020</p>
+            <h1>Promo star</h1>
+          </div>
+        </div>
       </div>
       <div class="swiper-slide">Slide 2</div>
       <div class="swiper-slide">Slide 3</div>
@@ -81,16 +102,28 @@
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    
   </div>
 
   <!-- Swiper JS -->
-  <script src="./assets/js/swiper-bundle.min.js"></script>
+  <script src="./assets/js/swiper-bundle.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
       pagination: {
         el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       },
     });
   </script>
