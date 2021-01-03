@@ -4,19 +4,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>PT. Bakrieland</title>
   <!-- <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"> -->
+  <link rel="stylesheet" href="./assets/css/rest.css">
   <link rel="stylesheet" href="./assets/css/main.css">
   <link rel="stylesheet" href="./assets/css/swipe-mode.css">
   <link rel="stylesheet" href="./assets/css/boostrap-mod.css">
   <link rel="stylesheet" href="./assets/js/swiper-bundle.css">
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
   <script src="./assets/js/jquery.js"></script>
+  <style>
+  .content {
+    display:none;
+  }
+
+  .preload {
+    margin:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-right: -50%;
+    transform:translate(-50%, -50%);
+  }
+  </style>
 
   <!-- Demo styles -->
 </head>
 
 <body>
+  <div class="preload">
+    <img src="./assets/image/img/loading_spinner.gif" />
+  </div>
+
   <section class="satuNav">
     <div class="container">
       <header>
@@ -480,8 +500,26 @@
                 <img src="./assets/image/img/footer.png" alt="">
             </div>
           </div>
-          <div class="colom">dua</div>
-          <div class="colom">tiga</div>
+          <div class="colom">
+            <div class="row1">
+              <i class="material-icons-outlined">location_on</i>
+              <p>Wisma Bakrie 1, 6th floor
+                Jl. HR Rasuna Said Kav. B-1
+                Jakarta, Indonesia 12920</p>
+            </div>
+            <div class="row1">
+              <i class="material-icons-outlined">local_phone</i>
+              <p>+6221 525 7835</p>
+            </div>
+            <div class="row1">
+              <i class="material-icons-outlined">print</i>
+              <p>+6221 522 5063</p>
+            </div>
+            <div class="row1">
+              <i class="material-icons-outlined">attach_email</i>
+              <p>corporate.info@bakrieland.com</p>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

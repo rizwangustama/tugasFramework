@@ -8,3 +8,9 @@ $(window).scroll(function() {
       $(".satuNav").removeClass("satu")    
   }
 });
+
+$(function() {
+  $(".preload").fadeOut(2000, function() {
+    $(".satuNav").fadeIn(1000);
+  });
+});

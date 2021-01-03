@@ -51,7 +51,7 @@ body {
 
 .satuNav .container {
   margin: auto;
-  width: 80%;
+  width: 85%;
   max-width: 1200px;
 }
 
@@ -149,7 +149,7 @@ body {
 
 .satu .container {
   margin: auto;
-  width: 80%;
+  width: 85%;
   max-width: 1200px;
 }
 
@@ -669,7 +669,8 @@ footer .container .grid {
   display: grid;
   margin-top: 70px;
   margin-bottom: 20px;
-  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-template-columns: 1.5fr 0.9fr 1fr;
+  column-gap: 20px;
 }
 
 footer .container .grid .colom {
@@ -693,4 +694,13 @@ footer .container .grid .colom img {
   display: flex;
   margin: 0 auto;
   justify-content: center;
+}
+
+footer .container .grid .colom .row1 {
+  display: flex;
+}
+
+footer .container .grid .colom .row1 i {
+  color: #e27026;
+  margin-right: 10px;
 }

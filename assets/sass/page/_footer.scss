@@ -18,7 +18,8 @@
                 display: grid;
                 margin-top: 70px;
                 margin-bottom: 20px;
-                grid-template-columns: 1.5fr 1fr 1fr;
+                grid-template-columns: 1.5fr 0.9fr 1fr;
+                column-gap: 20px;
                 .colom{
                     color: rgb(136, 135, 135);
                     p{
@@ -36,6 +37,13 @@
                         display: flex;
                         margin: 0 auto;
                         justify-content: center;
+                    }
+                    .row1{
+                        display: flex;
+                        i{
+                            color: #e27026;
+                            margin-right: 10px;
+                        }
                     }
 
                 }
