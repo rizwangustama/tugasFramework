@@ -72,3 +72,104 @@
         }
     }
 }
+
+@media screen and (max-width: 970px) {
+    
+    #kelima {
+        .container1{
+            overflow: hidden;
+            .grid{
+                grid-template-columns: 50% 50%;
+                grid-template-rows: auto;
+                column-gap: 10px;
+                row-gap: 10px;
+                .colom{
+                    background-repeat: no-repeat;
+                    .container{
+                        
+                        .wrap{
+                            
+                            .kiri{
+                                .konten{
+                                    
+                                    img{
+                                        
+                                    }
+                                    p {
+                                        
+                                    }
+                                }
+                            }
+                            .kanan{
+                                .border1{
+                                    
+                                    p{
+                                        
+                                    }
+                                    p:hover{
+                                        
+                                    }
+                                }
+                            }
+                        }
+                        .bawah{
+                            p{
+                                
+                            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 655px) {
+    
+    #kelima {
+        .container1{
+            .grid{
+                grid-template-columns: 1fr;
+                .colom{
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    .container{
+                        
+                        .wrap{
+                            
+                            .kiri{
+                                .konten{
+                                    
+                                    img{
+                                        
+                                    }
+                                    p {
+                                        
+                                    }
+                                }
+                            }
+                            .kanan{
+                                .border1{
+                                    
+                                    p{
+                                        
+                                    }
+                                    p:hover{
+                                        
+                                    }
+                                }
+                            }
+                        }
+                        .bawah{
+                            p{
+                                
+                            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -37,3 +37,23 @@
         }
     }
 }
+
+@media screen and (max-width: 855px) {
+    #ketujuh{
+        
+        .container1{
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            row-gap: 10px;
+            .colom{
+                background-repeat: no-repeat;
+                background-size: cover;
+                .wrap, .wrap-satu{
+                    .konten{
+                       
+                    } 
+                }
+            }
+        }
+    }
+}

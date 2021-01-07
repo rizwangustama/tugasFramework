@@ -3,6 +3,11 @@
         margin-top: 100px;
         background: #222222;
         overflow: hidden;
+        hr {
+            border: 1px solid grey;
+            width: 100%;
+            margin: 0;
+        }
         .img {
             height: 90px;
             width: 100%;
@@ -46,6 +51,117 @@
                         }
                     }
 
+                }
+            }
+        }
+        menu {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            .container2{
+                width: 90%;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                .kiri{
+                    a {
+                        text-decoration: none;
+                        color: rgb(109, 109, 109);
+                    }
+                }
+                ul{
+                    display: flex;
+                    li{
+                        margin-right: 10px;
+                        a {
+                            text-decoration: none;
+                            color: rgb(201, 201, 201);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    @media screen and (max-width: 855px) {
+        footer {
+            margin-top: 100px;
+            background: #222222;
+            overflow: hidden;
+            .img {
+                height: 90px;
+                width: 100%;
+                background-size: unset;
+                margin-top: -50px;
+                position: absolute;
+                z-index: 2;
+            }
+            .container{
+                margin: auto;
+                width: 93%;
+                .grid{
+                    display: grid;
+                    margin-top: 70px;
+                    margin-bottom: 20px;
+                    grid-template-columns: 1fr;
+                    column-gap: 20px;
+                    .colom{
+                        color: rgb(136, 135, 135);
+                        p{
+                            font-family: DINPro;
+                            font-weight: lighter;
+                            font-size: 15px;
+                            line-height: 30px;
+                            span{
+                                font-family: DINPro;
+                                font-weight: bold;
+                            }
+                        }
+                        img{
+                            width: 400px;
+                            display: flex;
+                            margin: 0 auto;
+                            justify-content: center;
+                        }
+                        .row1{
+                            display: flex;
+                            i{
+                                color: #e27026;
+                                margin-right: 10px;
+                            }
+                        }
+    
+                    }
+                }
+            }
+
+            menu {
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
+                .container2{
+                    width: 90%;
+                    margin: auto;
+                    display: flex;
+                    justify-content: space-between;
+                    .kiri{
+                        display: none;
+                        a {
+                            text-decoration: none;
+                            color: rgb(109, 109, 109);
+                        }
+                    }
+                    ul{
+                        display: flex;
+                        li{
+                            margin-right: 10px;
+                            a {
+                                text-decoration: none;
+                                color: rgb(201, 201, 201);
+                            }
+                        }
+                    }
                 }
             }
         }

@@ -80,3 +80,8 @@
     background: #e27026;
 }
 
+
+#top-banner .carousel-inner img {
+    height: 590px;
+    width: auto;
+}

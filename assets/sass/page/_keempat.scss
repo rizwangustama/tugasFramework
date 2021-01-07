@@ -72,3 +72,55 @@
         }
     }
 }
+
+
+
+@media screen and (max-width: 655px) {
+    #keempat {
+        .container1{
+            
+            .grid{
+                grid-template-columns: 1fr;
+                grid-template-rows: 380.7px;
+                row-gap: 10px;
+                .item{
+                    
+                    .container{
+                        padding: 30px 30px;
+                        .wrap{
+                            
+                            .kiri{
+                                .konten{
+                                    
+                                    img {
+                                       
+                                    }
+                                    p {
+                                       
+                                    }
+                                }
+                            }
+                            .kanan{
+                                .border1 {
+                                    
+                                    img {}
+                                    p{
+                                        
+                                    }
+                                    p:hover {
+                                        
+                                    }
+                                }
+                            }
+                        }
+                        .bawah{
+                            p{
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

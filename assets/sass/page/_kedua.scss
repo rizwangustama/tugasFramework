@@ -141,3 +141,47 @@
         }
     }
 }
+
+
+@media screen and (max-width: 1024px) {
+    #kedua {
+        position: relative;
+        .container1{
+            height: auto;
+            .grid {
+                grid-template-columns: 1fr;
+                grid-template-rows: 361.81px;
+                grid-auto-flow: row;
+                row-gap: 10px;
+                .itemku{
+                    transition: all 1s ease;
+                }
+                .item{
+                    .konten {
+                        
+                        .isi{
+                            
+                            h2 {
+                                
+                            }
+                            h4 {
+                                
+    
+                            }
+                            div {
+                                
+                                button{
+                                    
+                                }
+                                button:hover{
+                                    // border: 1.5px solid $colorprimary;
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

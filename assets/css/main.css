@@ -399,6 +399,24 @@ body {
   transition: all 0.9s ease;
 }
 
+@media screen and (max-width: 1024px) {
+  #kedua {
+    position: relative;
+  }
+  #kedua .container1 {
+    height: auto;
+  }
+  #kedua .container1 .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 361.81px;
+    grid-auto-flow: row;
+    row-gap: 10px;
+  }
+  #kedua .container1 .grid .itemku {
+    transition: all 1s ease;
+  }
+}
+
 @font-face {
   font-family: din-bold;
   src: url(/assets/font/din-bold.ttf);
@@ -500,6 +518,17 @@ body {
   font-family: gotham;
   font-weight: bold;
   letter-spacing: 1.9px;
+}
+
+@media screen and (max-width: 655px) {
+  #keempat .container1 .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 380.7px;
+    row-gap: 10px;
+  }
+  #keempat .container1 .grid .item .container {
+    padding: 30px 30px;
+  }
 }
 
 @font-face {
@@ -605,6 +634,31 @@ body {
   color: white;
 }
 
+@media screen and (max-width: 970px) {
+  #kelima .container1 {
+    overflow: hidden;
+  }
+  #kelima .container1 .grid {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  #kelima .container1 .grid .colom {
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  #kelima .container1 .grid {
+    grid-template-columns: 1fr;
+  }
+  #kelima .container1 .grid .colom {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 #ketujuh {
   margin-top: 70px;
 }
@@ -645,10 +699,28 @@ body {
   padding-bottom: 10px;
 }
 
+@media screen and (max-width: 855px) {
+  #ketujuh .container1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 10px;
+  }
+  #ketujuh .container1 .colom {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
 footer {
   margin-top: 100px;
   background: #222222;
   overflow: hidden;
+}
+
+footer hr {
+  border: 1px solid grey;
+  width: 100%;
+  margin: 0;
 }
 
 footer .img {
@@ -703,4 +775,116 @@ footer .container .grid .colom .row1 {
 footer .container .grid .colom .row1 i {
   color: #e27026;
   margin-right: 10px;
+}
+
+footer menu {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer menu .container2 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer menu .container2 .kiri a {
+  text-decoration: none;
+  color: #6d6d6d;
+}
+
+footer menu .container2 ul {
+  display: flex;
+}
+
+footer menu .container2 ul li {
+  margin-right: 10px;
+}
+
+footer menu .container2 ul li a {
+  text-decoration: none;
+  color: #c9c9c9;
+}
+
+@media screen and (max-width: 855px) {
+  footer {
+    margin-top: 100px;
+    background: #222222;
+    overflow: hidden;
+  }
+  footer .img {
+    height: 90px;
+    width: 100%;
+    background-size: unset;
+    margin-top: -50px;
+    position: absolute;
+    z-index: 2;
+  }
+  footer .container {
+    margin: auto;
+    width: 93%;
+  }
+  footer .container .grid {
+    display: grid;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+  }
+  footer .container .grid .colom {
+    color: #888787;
+  }
+  footer .container .grid .colom p {
+    font-family: DINPro;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  footer .container .grid .colom p span {
+    font-family: DINPro;
+    font-weight: bold;
+  }
+  footer .container .grid .colom img {
+    width: 400px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  footer .container .grid .colom .row1 {
+    display: flex;
+  }
+  footer .container .grid .colom .row1 i {
+    color: #e27026;
+    margin-right: 10px;
+  }
+  footer menu {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer menu .container2 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer menu .container2 .kiri {
+    display: none;
+  }
+  footer menu .container2 .kiri a {
+    text-decoration: none;
+    color: #6d6d6d;
+  }
+  footer menu .container2 ul {
+    display: flex;
+  }
+  footer menu .container2 ul li {
+    margin-right: 10px;
+  }
+  footer menu .container2 ul li a {
+    text-decoration: none;
+    color: #c9c9c9;
+  }
 }
