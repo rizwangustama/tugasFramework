@@ -27,7 +27,7 @@
                         justify-content: center;
                         align-items: center;
                         h2 {
-                            font-family: gotham;
+                            font-family: gothambold;
                             font-weight: bold;
                             font-size: 20px;
                             color: $colorsecond;
@@ -38,7 +38,7 @@
                             margin-top: 18px;
                             text-align: center;
                             line-height: 24px;
-                            font-family: $fontdin;
+                            font-family: dinnormal;
                             font-size: 15px;
                             letter-spacing: 1px;
                             color: $colorsecond;
@@ -55,7 +55,7 @@
                                 height: 38px;
                                 border: 1px solid $colorsecond;
                                 background:transparent;
-                                font-family: $fontdin;
+                                font-family: dinbold;
                                 font-weight: bold;
                                 color: $colorsecond;
                                 transition: all 0.9s ease;
@@ -78,7 +78,7 @@
                         align-items: center;
                         .isi-konten{
                             h3{
-                                font-family: gotham;
+                                font-family: gothambold;
                                 font-weight: bold;
                                 text-align: center;
                                 color: white;
@@ -90,12 +90,12 @@
                                 }
                                 .kanan{
                                     p {
-                                        font-family: $fontdin;
+                                        font-family: dinnormal;
                                         color: white;
                                         font-size: 13px;
                                     }
                                     button {
-                                        font-family: $fontdin;
+                                        font-family: dinnormal;
                                         font-weight: bold;
                                         font-size: 14px;
                                         background: $colorprimary;

@@ -55,20 +55,20 @@
     line-height: 30px;
 }
 .carousel-caption .text1 {
-    font-family: DINPro;
+    font-family: dinnormal;
     font-size: 20px;
     color: #e27026;
 }
 
 .carousel-caption .text2 {
-    font-family: DINPro;
+    font-family: dinbold;
     font-weight: bold;
     font-size: 25px;
     line-height: 40px;
 }
 
 .carousel-caption button {
-    font-family: DINPro;
+    font-family: dinbold;
     font-weight: bold;
     margin-top: 15px;
     color: white;
